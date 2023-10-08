@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Orbitron:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./icons/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="pre-game-container">
+            <button id="start-game-button">START GAME</button>
+        </div>
+
+        <div id="result-container">
+            <div id="result-content">
+                <div id="message"></div>
+                <button id="restart-button"><i class="fa-solid fa-rotate-left"></i></button>
+            </div>
+        </div>
+
+        <div id="display-container">
+            <div id="player-box" class="users-container">
+                <div class="header">Player</div>
+                <div id="player-choice" class="choice-display"></div>
+            </div>
+
+            <div id="computer-box" class="users-container">
+                <div class="header">Computer</div>
+                <div id="computer-choice" class="choice-display"></div>
+            </div>
+        </div>
+
+        <div id="choices-container">
+            <button class="choices-button" id="rock">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </button>
+            <button class="choices-button" id="paper">
+                <i class="fa-solid fa-hand"></i>
+            </button>
+            <button class="choices-button" id="scissors">
+                <i class="fa-solid fa-hand-scissors"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="./icons/all.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
